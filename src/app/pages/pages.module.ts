@@ -3,19 +3,19 @@ import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { LbdModule } from './lbd/lbd.module';
+import { LbdModule } from './default-component/lbd/lbd.module';
 import { NguiMapModule } from '@ngui/map';
 
 import { PagesRoutes } from './pages.routing';
 
-import { HomeComponent } from './home/home.component';
-import { UserComponent } from './user/user.component';
-import { TablesComponent } from './tables/tables.component';
-import { TypographyComponent } from './typography/typography.component';
-import { IconsComponent } from './icons/icons.component';
-import { MapsComponent } from './maps/maps.component';
-import { NotificationsComponent } from './notifications/notifications.component';
-import { UpgradeComponent } from './upgrade/upgrade.component';
+import { HomeComponent } from './default-component/home/home.component';
+import { UserComponent } from './default-component/user/user.component';
+import { TablesComponent } from './default-component/tables/tables.component';
+import { TypographyComponent } from './default-component/typography/typography.component';
+import { IconsComponent } from './default-component/icons/icons.component';
+import { MapsComponent } from './default-component/maps/maps.component';
+import { NotificationsComponent } from './default-component/notifications/notifications.component';
+import { UpgradeComponent } from './default-component/upgrade/upgrade.component';
 
 
 @NgModule({
