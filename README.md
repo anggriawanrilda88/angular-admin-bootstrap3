@@ -59,24 +59,17 @@ light-bootstrap-dashboard-angular
 │   │   ├── app.component.ts
 │   │   ├── app.module.ts
 │   │   ├── app.routing.ts
-│   │   ├── home
-│   │   │   ├── home.component.css
-│   │   │   ├── home.component.html
-│   │   │   ├── home.component.spec.ts
-│   │   │   └── home.component.ts
-│   │   ├── icons
-│   │   │   ├── icons.component.css
-│   │   │   ├── icons.component.html
-│   │   │   ├── icons.component.spec.ts
-│   │   │   └── icons.component.ts
-│   │   ├── layouts
-│   │   │   └── admin-layout
-│   │   │       ├── admin-layout.component.html
-│   │   │       ├── admin-layout.component.scss
-│   │   │       ├── admin-layout.component.spec.ts
-│   │   │       ├── admin-layout.component.ts
-│   │   │       ├── admin-layout.module.ts
-│   │   │       └── admin-layout.routing.ts
+│   │   ├── pages
+    │   │   ├── home
+    │   │   │   ├── home.component.css
+    │   │   │   ├── home.component.html
+    │   │   │   ├── home.component.spec.ts
+    │   │   │   └── home.component.ts
+    │   │   ├── icons
+    │   │   │   ├── icons.component.css
+    │   │   │   ├── icons.component.html
+    │   │   │   ├── icons.component.spec.ts
+    │   │   │   └── icons.component.ts
 │   │   ├── lbd
 │   │   │   ├── lbd-chart
 │   │   │   │   ├── lbd-chart.component.html
@@ -101,30 +94,36 @@ light-bootstrap-dashboard-angular
 │   │   │       ├── navbar.component.html
 │   │   │       ├── navbar.component.ts
 │   │   │       └── navbar.module.ts
-│   │   ├── sidebar
-│   │   │   ├── sidebar.component.html
-│   │   │   ├── sidebar.component.ts
-│   │   │   └── sidebar.module.ts
-│   │   ├── tables
-│   │   │   ├── tables.component.css
-│   │   │   ├── tables.component.html
-│   │   │   ├── tables.component.spec.ts
-│   │   │   └── tables.component.ts
-│   │   ├── typography
-│   │   │   ├── typography.component.css
-│   │   │   ├── typography.component.html
-│   │   │   ├── typography.component.spec.ts
-│   │   │   └── typography.component.ts
-│   │   ├── upgrade
-│   │   │   ├── upgrade.component.css
-│   │   │   ├── upgrade.component.html
-│   │   │   ├── upgrade.component.spec.ts
-│   │   │   └── upgrade.component.ts
-│   │   └── user
-│   │       ├── user.component.css
-│   │       ├── user.component.html
-│   │       ├── user.component.spec.ts
-│   │       └── user.component.ts
+    │   │   ├── sidebar
+    │   │   │   ├── sidebar.component.html
+    │   │   │   ├── sidebar.component.ts
+    │   │   │   └── sidebar.module.ts
+    │   │   ├── tables
+    │   │   │   ├── tables.component.css
+    │   │   │   ├── tables.component.html
+    │   │   │   ├── tables.component.spec.ts
+    │   │   │   └── tables.component.ts
+    │   │   ├── typography
+    │   │   │   ├── typography.component.css
+    │   │   │   ├── typography.component.html
+    │   │   │   ├── typography.component.spec.ts
+    │   │   │   └── typography.component.ts
+    │   │   ├── upgrade
+    │   │   │   ├── upgrade.component.css
+    │   │   │   ├── upgrade.component.html
+    │   │   │   ├── upgrade.component.spec.ts
+    │   │   │   └── upgrade.component.ts
+    │   │   └── user
+    │   │       ├── user.component.css
+    │   │       ├── user.component.html
+    │   │       ├── user.component.spec.ts
+    │   │       └── user.component.ts
+│   │   │       ├── pages.component.html
+│   │   │       ├── pages.component.scss
+│   │   │       ├── pages.component.spec.ts
+│   │   │       ├── pages.component.ts
+│   │   │       ├── pages.module.ts
+│   │   │       └── pages.routing.ts
 │   ├── assets
 │   │   ├── css
 │   │   ├── fonts
