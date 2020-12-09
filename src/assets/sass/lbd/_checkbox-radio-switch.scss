@@ -259,9 +259,9 @@
     -o-user-select: none;
     user-select: none;
     /*   this code is for fixing safari bug with hidden overflow for border-radius   */
-    // -webkit-mask: url('../img/mask.png') 0 0 no-repeat;
+    -webkit-mask: url("^assets/img/mask.png") 0 0 no-repeat;
     -webkit-mask-size: 60px 24px;
-    // mask: url('../img/mask.png') 0 0 no-repeat;
+    mask: url("^assets/img/mask.png") 0 0 no-repeat;
 }
 
 .has-switch.deactivate {
@@ -296,7 +296,14 @@
 
 .has-switch>div label {
     background-color: #FFFFFF;
-    @include icon-gradient (rgba(255, 255, 255, 1), rgba(241, 241, 242, 1));
+    @include icon-gradient (rgba(255,
+    255,
+    255,
+    1),
+    rgba(241,
+    241,
+    242,
+    1));
     box-shadow: 0 1px 1px #FFFFFF inset, 0 1px 1px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
